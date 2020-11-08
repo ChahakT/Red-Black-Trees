@@ -141,6 +141,7 @@
 	    }
 	    
         ptr = root;
+	  
         /* search the node to delete */
         while (ptr != NULL) {
                 if ((data - ptr->data) == 0)
@@ -376,7 +377,7 @@
                         case 3:
                                 exit(0);
                         default:
-                                printf("You have entered wrong option!!\n");
+                                printf("You have entered a wrong option!!\n");
                                 break;
                 }
                 printf("\n");
